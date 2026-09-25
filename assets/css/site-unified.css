@@ -1,0 +1,45 @@
+/* Shared colors with bgg.ehsan.bz and the Persian blog. */
+:root {
+  --ehsan-navy: #2c3e50;
+  --ehsan-red: #b71c1c;
+  --ehsan-red-hover: #8e1515;
+  --bs-link-color: #b71c1c;
+  --bs-link-hover-color: #8e1515;
+}
+a { color: var(--ehsan-red); }
+a:hover { color: var(--ehsan-red-hover); }
+.header { background-color: var(--ehsan-navy); }
+.header .nav-item .nav-link.active {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: .35em;
+}
+.header .nav-item .nav-link:hover,
+.header .nav-item .nav-link:focus-visible { color: #fff; }
+.header .social-list a { color: var(--ehsan-navy); }
+.header .social-list a:hover { color: #1f2e3c; }
+.header a:focus-visible,
+.header button:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.main-wrapper .btn-primary {
+  color: #fff;
+  background-color: var(--ehsan-red);
+  border-color: var(--ehsan-red);
+}
+.main-wrapper .btn-primary:hover,
+.main-wrapper .btn-primary:focus-visible {
+  color: #fff;
+  background-color: var(--ehsan-red-hover);
+  border-color: var(--ehsan-red-hover);
+}
+.main-wrapper .btn-outline-primary {
+  color: var(--ehsan-red);
+  border-color: var(--ehsan-red);
+}
+.main-wrapper .btn-outline-primary:hover,
+.main-wrapper .btn-outline-primary:focus-visible {
+  color: #fff;
+  background-color: var(--ehsan-red);
+  border-color: var(--ehsan-red);
+}
+.main-wrapper a.text-link { color: var(--ehsan-red); }
+.main-wrapper a.text-link:hover { color: var(--ehsan-red-hover); }
