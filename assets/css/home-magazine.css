@@ -17,12 +17,12 @@
 .home-name { font-size: 1.16rem; font-weight: 650; letter-spacing: -.025em; }
 .home-topics { color: var(--home-muted); font-size: .68rem; font-weight: 600; letter-spacing: .09em; }
 .home-label { color: var(--home-accent); font-size: .7rem; font-weight: 700; letter-spacing: .12em; line-height: 1.5; }
-.home-work { padding: clamp(62px, 8vw, 108px) 0 clamp(72px, 9vw, 118px); }
-.home-work .home-label { margin-bottom: 22px; }
-.home-work h1 { max-width: 740px; margin-bottom: 23px; font-size: clamp(2.45rem, 5.2vw, 4.7rem); font-weight: 600; line-height: 1.09; letter-spacing: -.055em; }
-.home-work > p:not(.home-label) { max-width: 680px; color: var(--home-muted); font-size: 1.14rem; line-height: 1.72; margin-bottom: 25px; }
-.home-inline-link { display: inline-block; color: var(--home-accent); font-size: .92rem; font-weight: 600; border-bottom: 1px solid currentColor; padding-bottom: 4px; }
-.home-inline-link:hover { color: #7d1e1e; }
+.home-work { margin: 48px 0 80px; padding: clamp(38px, 5vw, 60px); background: #243747; color: #fff; }
+.home-work .home-label { color: #e0b2ad; margin-bottom: 22px; }
+.home-work h1 { max-width: 740px; margin-bottom: 23px; font-size: clamp(2.25rem, 4.7vw, 4.3rem); font-weight: 600; line-height: 1.09; letter-spacing: -.055em; }
+.home-work > p:not(.home-label) { max-width: 680px; color: #dfe7ec; font-size: 1.14rem; line-height: 1.72; margin-bottom: 25px; }
+.home-inline-link { display: inline-block; color: #fff; font-size: .92rem; font-weight: 600; border-bottom: 1px solid currentColor; padding-bottom: 4px; }
+.home-inline-link:hover { color: #fff; border-color: #fff; }
 .home-interests { border-top: 1px solid var(--home-line); }
 .home-section-heading { display: flex; align-items: baseline; gap: 28px; padding: 35px 0 29px; }
 .home-section-heading .home-label { min-width: 130px; margin-bottom: 0; }
@@ -38,7 +38,7 @@
 .home-thread p { color: var(--home-muted); font-size: 1.05rem; line-height: 1.7; max-width: 630px; margin-bottom: 0; }
 @media (max-width: 767px) {
   .home-masthead { align-items: flex-start; flex-direction: column; justify-content: center; gap: 7px; padding: 18px 0; }
-  .home-work { padding: 60px 0 75px; }
+  .home-work { margin: 35px 0 65px; padding: 34px 27px; }
   .home-work h1 { font-size: clamp(2.2rem, 8vw, 3.5rem); }
   .home-section-heading { display: block; padding: 28px 0 24px; }
   .home-section-heading .home-label { margin-bottom: 10px; }
@@ -51,5 +51,6 @@
 @media (max-width: 420px) {
   .main-wrapper .home-inner { padding-left: 21px; padding-right: 21px; padding-bottom: 70px; }
   .home-topics { font-size: .62rem; letter-spacing: .055em; }
+  .home-work { padding: 30px 23px; }
   .home-work > p:not(.home-label) { font-size: 1.04rem; }
 }
